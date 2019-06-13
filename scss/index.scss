@@ -1,0 +1,25 @@
+@tailwind base;
+
+@tailwind components;
+
+hr {
+  height: 1px;
+  @apply w-full;
+}
+
+/* a {
+  text-decoration: none;
+
+  &:active {
+    color: inherit;
+  }
+} */
+
+
+@import "components/button";
+@import "components/input";
+
+
+@tailwind utilities;
+
+@import "./custom-utilities";

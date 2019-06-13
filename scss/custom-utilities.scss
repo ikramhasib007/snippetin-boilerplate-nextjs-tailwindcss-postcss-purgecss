@@ -1,0 +1,64 @@
+/* .rotate-0 {
+  transform: rotate(0deg);
+}
+.rotate-90 {
+  transform: rotate(90deg);
+}
+.rotate-180 {
+  transform: rotate(180deg);
+}
+.rotate-270 {
+  transform: rotate(270deg);
+} */
+
+/* @responsive {
+  .rotate-0 {
+    transform: rotate(0deg);
+  }
+  .rotate-90 {
+    transform: rotate(90deg);
+  }
+  .rotate-180 {
+    transform: rotate(180deg);
+  }
+  .rotate-270 {
+    transform: rotate(270deg);
+  }
+   ============== OR ====================
+   ==== if need responsive and pseudo-calss variants then ======
+   @variants hover, focus {
+    .rotate-0 {
+      transform: rotate(0deg);
+    }
+    .rotate-90 {
+      transform: rotate(90deg);
+    }
+    .rotate-180 {
+      transform: rotate(180deg);
+    }
+    .rotate-270 {
+      transform: rotate(270deg);
+    }
+  }
+} */
+
+/* @variants hover, focus {
+  .rotate-0 {
+    transform: rotate(0deg);
+  }
+  .rotate-90 {
+    transform: rotate(90deg);
+  }
+  .rotate-180 {
+    transform: rotate(180deg);
+  }
+  .rotate-270 {
+    transform: rotate(270deg);
+  }
+} */
+.custom-screen {
+  height: calc(100vh - 54px);
+}
+.outline-disabled {
+  outline: 0 !important;
+}

@@ -1,0 +1,35 @@
+{
+  "test": {
+    "API_URL": "",
+    "BASE_URL": "localhost",
+    "MONGO_DB_HOST": "localhost",
+    "MONGO_DB_PORT": 27017,
+    "MONGO_DB_NAME": "database-name-test",
+    "MONGO_DB_USER": "admin",
+    "MONGO_DB_PASS": 123456,
+    "PORT": 3000,
+    "JWT_SECRET": "some-random-string-here"
+  },
+  "development": {
+    "API_URL": "",
+    "BASE_URL": "localhost",
+    "MONGO_DB_HOST": "localhost",
+    "MONGO_DB_PORT": 27017,
+    "MONGO_DB_NAME": "database-name",
+    "MONGO_DB_USER": "admin",
+    "MONGO_DB_PASS": 123456,
+    "PORT": 3000,
+    "JWT_SECRET": "some-random-string-here"
+  },
+  "production": {
+    "API_URL": "",
+    "BASE_URL": "localhost",
+    "MONGO_DB_HOST": "localhost",
+    "MONGO_DB_PORT": 27017,
+    "MONGO_DB_NAME": "database-name",
+    "MONGO_DB_USER": "admin",
+    "MONGO_DB_PASS": 123456,
+    "PORT": 3000,
+    "JWT_SECRET": "some-random-string-here"
+  }
+}

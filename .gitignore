@@ -1,0 +1,9 @@
+.next
+node_modules
+.env
+config.json
+*.log
+.vscode
+yarn.lock
+package-lock.json
+tailwind.defaultConfig.stub.js

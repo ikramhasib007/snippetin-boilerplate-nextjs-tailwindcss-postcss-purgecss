@@ -1,0 +1,105 @@
+.btn {
+  @apply font-bold;
+  @apply py-2;
+  @apply px-4;
+  @apply rounded;
+}
+
+.btn-sm {
+  @apply font-normal;
+  @apply py-1;
+  @apply px-3;
+}
+
+.btn-outline-sm {
+  @apply font-normal;
+  padding: 3px 11px !important;
+}
+
+
+.btn-blue {
+  @apply bg-blue-500;
+  @apply text-white;
+}
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+
+.btn-blue:focus {
+  @apply outline-none;
+  @apply shadow-outline;
+}
+
+.btn-blue-outline {
+  @apply bg-transparent;
+  @apply text-blue-500;
+  @apply border border-blue-500;
+  padding: 7px 15px;
+}
+.btn-blue-outline:hover {
+  @apply bg-blue-500;
+  @apply text-white;
+  @apply border-transparent;
+}
+.btn-blue-outline:focus {
+  @apply outline-none;
+  @apply shadow-outline;
+}
+
+.btn-gray {
+  @apply bg-gray-400;
+  @apply text-gray-800;
+}
+.btn-gray:hover {
+  @apply bg-gray-500;
+}
+.btn-gray:focus {
+  @apply outline-none;
+  @apply shadow-outline;
+}
+.btn-gray-outline {
+  @apply bg-transparent;
+  @apply text-gray-800;
+  @apply border;
+  @apply border-gray-400;
+  padding: 7px 15px;
+}
+.btn-gray-outline:hover {
+  @apply bg-gray-500;
+  @apply border-transparent;
+  @apply text-white;
+}
+.btn-gray-outline:focus {
+  @apply outline-none;
+  @apply shadow-outline;
+}
+
+.btn-primary {
+  @apply bg-primary-500;
+  @apply text-white;
+}
+.btn-primary:hover {
+  @apply bg-primary-700;
+}
+.btn-primary:focus {
+  @apply outline-none;
+  @apply shadow-outline;
+}
+
+.btn-primary-outline {
+  @apply bg-transparent;
+  @apply text-primary-700;
+  @apply border;
+  @apply border-primary-500;
+  padding: 7px 15px;
+}
+.btn-primary-outline:hover {
+  @apply bg-primary-500;
+  @apply border-transparent;
+  @apply text-white;
+}
+.btn-primary-outline:focus {
+  @apply outline-none;
+  @apply shadow-outline;
+}
+
